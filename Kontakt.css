@@ -1,6 +1,6 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/freepik__adjust__4344.png');
-  background-position: 50% 50%, 50% 84.71%;
+  background-position: 50% 50%, 50% 100%;
   background-size: cover, cover;
 }
 
@@ -9,17 +9,33 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 60px auto 0;
+  margin: 106px 314px 0 0;
 }
 
 .u-section-1 .u-text-2 {
-  width: 826px;
-  margin: 30px auto 60px;
+  margin: 62px 314px 60px 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  color: rgba(0, 0, 0, 0);
+  font-weight: 700;
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 660px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 60px;
+    margin-right: 114px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 826px;
+    margin-right: 114px;
   }
 }
 
@@ -28,8 +44,13 @@
     min-height: 506px;
   }
 
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+
   .u-section-1 .u-text-2 {
     width: 720px;
+    margin-right: 0;
   }
 }
 
